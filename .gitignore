@@ -1,1 +1,4 @@
-/Server/target/
+/.idea/
+*.iml
+/out/
+/target/
