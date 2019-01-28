@@ -18,8 +18,8 @@ public class Database {
             try {
                 Class.forName(DRIVER);
                 connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            } catch (Exception ex) {
-                System.out.println(ex.getMessage());
+            } catch (Exception e) {
+                e.getMessage();
             }
         }
 
